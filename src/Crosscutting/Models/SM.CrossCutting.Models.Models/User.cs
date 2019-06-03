@@ -10,6 +10,7 @@ namespace SM.CrossCutting.Models.Models
         [Key]
         public string IdUser { get; set; }
         public string Email { get; set; }
+        public string Password { get; set; }
         public string Name { get; set; }
         public DateTime DateCreated { get; set; }
     }

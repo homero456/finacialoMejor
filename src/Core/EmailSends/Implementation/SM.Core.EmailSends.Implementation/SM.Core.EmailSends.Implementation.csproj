@@ -5,9 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Crosscutting\Utils\SM.Core.Crosscutting.Utils\SM.Core.Crosscutting.Utils.csproj" />
     <ProjectReference Include="..\..\..\..\Data\Providers\Sql\SM.Data.Providers.Sql\SM.Data.Providers.Sql.csproj" />
-    <ProjectReference Include="..\..\Interfaces\FM.Core.UserRegister.Interfaces\FM.Core.UserRegister.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Interfaces\SM.Core.EmailSends.Interfaces\SM.Core.EmailSends.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

@@ -12,14 +12,16 @@
     "IIS Express": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/HistoryCompaign",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://localhost:5005"
     },
     "ApiHistoryCampaign": {
       "commandName": "Project",
-      "launchUrl": "api/values",
+      "launchBrowser": true,
+      "launchUrl": "api/HistoryCompaign",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

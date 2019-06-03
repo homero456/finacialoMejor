@@ -69,17 +69,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implement
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{0D052DF4-805D-4A0E-BDAF-C6147CA8A8AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Core.CreateCampaign.Implementation", "src\Core\CreateCampaign\Implementation\SM.Core.CreateCampaign.Implementation\SM.Core.CreateCampaign.Implementation.csproj", "{02AE6212-2E2A-401D-9378-C93E269D8902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Core.CreateCampaign.Implementation", "src\Core\CreateCampaign\Implementation\SM.Core.CreateCampaign.Implementation\SM.Core.CreateCampaign.Implementation.csproj", "{02AE6212-2E2A-401D-9378-C93E269D8902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Core.CreateCampaign.Interfaces", "src\Core\CreateCampaign\Interfaces\SM.Core.CreateCampaign.Interfaces\SM.Core.CreateCampaign.Interfaces.csproj", "{5C4AD139-9DF9-44A0-BA73-BD5F08AF585D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Core.CreateCampaign.Interfaces", "src\Core\CreateCampaign\Interfaces\SM.Core.CreateCampaign.Interfaces\SM.Core.CreateCampaign.Interfaces.csproj", "{5C4AD139-9DF9-44A0-BA73-BD5F08AF585D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{7382A647-814B-4380-99DB-4E190705EF29}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{50B1799E-0A9D-4E0D-886A-66AD1FE130FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Core.DeleteCompaign.Implementation", "src\Core\DeleteCompaign\Implementation\SM.Core.DeleteCompaign.Implementation\SM.Core.DeleteCompaign.Implementation.csproj", "{B8167B2D-DF9A-4AED-B931-9607847F98E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Core.DeleteCompaign.Implementation", "src\Core\DeleteCompaign\Implementation\SM.Core.DeleteCompaign.Implementation\SM.Core.DeleteCompaign.Implementation.csproj", "{B8167B2D-DF9A-4AED-B931-9607847F98E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Core.DeleteCompaign.Interfaces", "src\Core\DeleteCompaign\Interfaces\SM.Core.DeleteCompaign.Interfaces\SM.Core.DeleteCompaign.Interfaces.csproj", "{0B2A9886-895B-49B8-970E-27A65DB88DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Core.DeleteCompaign.Interfaces", "src\Core\DeleteCompaign\Interfaces\SM.Core.DeleteCompaign.Interfaces\SM.Core.DeleteCompaign.Interfaces.csproj", "{0B2A9886-895B-49B8-970E-27A65DB88DE2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HistoryCompaign", "HistoryCompaign", "{3433EC45-E187-4549-94EA-7E043F585637}"
 EndProject
@@ -87,9 +87,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{DEF9D48C-85B8-47FB-B122-2DCEC154B584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Core.HistoryCompaign.Interfaces", "src\Core\HistoryCompaign\Interfaces\SM.Core.HistoryCompaign.Interfaces\SM.Core.HistoryCompaign.Interfaces.csproj", "{543C4852-4D91-42FE-879E-3C94CAB51E60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Core.HistoryCompaign.Interfaces", "src\Core\HistoryCompaign\Interfaces\SM.Core.HistoryCompaign.Interfaces\SM.Core.HistoryCompaign.Interfaces.csproj", "{543C4852-4D91-42FE-879E-3C94CAB51E60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Core.HistoryCompaign.Implementation", "src\Core\HistoryCompaign\Implementation\SM.Core.HistoryCompaign.Implementation\SM.Core.HistoryCompaign.Implementation.csproj", "{AB334088-68FD-49BA-AEA9-354FA860A01C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Core.HistoryCompaign.Implementation", "src\Core\HistoryCompaign\Implementation\SM.Core.HistoryCompaign.Implementation\SM.Core.HistoryCompaign.Implementation.csproj", "{AB334088-68FD-49BA-AEA9-354FA860A01C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailSends", "EmailSends", "{5F56ADD8-D81A-4E87-A62A-565EBE44D162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{EA306133-9973-47DF-B9FA-38F128FD75E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{72229A4F-F0E8-4F76-AB9F-523CDE6687FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Core.EmailSends.Implementation", "src\Core\EmailSends\Implementation\SM.Core.EmailSends.Implementation\SM.Core.EmailSends.Implementation.csproj", "{CDCFCC1F-54E6-4D72-B518-A9BA7E39306D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Core.EmailSends.Interfaces", "src\Core\EmailSends\Interfaces\SM.Core.EmailSends.Interfaces\SM.Core.EmailSends.Interfaces.csproj", "{0A467D45-000F-441F-B61F-047692E0F985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{C334DD9B-898B-47EC-9E2D-913732B3FA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Core.Crosscutting.Utils", "src\Crosscutting\Utils\SM.Core.Crosscutting.Utils\SM.Core.Crosscutting.Utils.csproj", "{0054D81C-B158-4277-9017-80287FC1F890}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InitSesion", "InitSesion", "{81A3C726-ADB5-4B2A-91C5-48ED818A1C2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation", "Implementation", "{CF638FC8-5092-426B-900B-32CBBDA67A6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{089CB908-48B5-4DB5-9426-B1880AF2799A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Core.InitSesion.Implementation", "src\Core\InitSesion\Implementation\SM.Core.InitSesion.Implementation\SM.Core.InitSesion.Implementation.csproj", "{8A2102A2-BD7B-4FFC-9717-3E5680729B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Core.InitSesion.Interfaces.IInitSesion", "src\Core\InitSesion\Interfaces\SM.Core.InitSesion.Interfaces.IInitSesion\SM.Core.InitSesion.Interfaces.IInitSesion.csproj", "{478E592E-F46D-4106-9E72-6AE026FCA010}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +201,26 @@ Global
 		{AB334088-68FD-49BA-AEA9-354FA860A01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB334088-68FD-49BA-AEA9-354FA860A01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB334088-68FD-49BA-AEA9-354FA860A01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCFCC1F-54E6-4D72-B518-A9BA7E39306D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCFCC1F-54E6-4D72-B518-A9BA7E39306D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCFCC1F-54E6-4D72-B518-A9BA7E39306D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCFCC1F-54E6-4D72-B518-A9BA7E39306D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A467D45-000F-441F-B61F-047692E0F985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A467D45-000F-441F-B61F-047692E0F985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A467D45-000F-441F-B61F-047692E0F985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A467D45-000F-441F-B61F-047692E0F985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0054D81C-B158-4277-9017-80287FC1F890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0054D81C-B158-4277-9017-80287FC1F890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0054D81C-B158-4277-9017-80287FC1F890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0054D81C-B158-4277-9017-80287FC1F890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2102A2-BD7B-4FFC-9717-3E5680729B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2102A2-BD7B-4FFC-9717-3E5680729B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2102A2-BD7B-4FFC-9717-3E5680729B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2102A2-BD7B-4FFC-9717-3E5680729B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478E592E-F46D-4106-9E72-6AE026FCA010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478E592E-F46D-4106-9E72-6AE026FCA010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478E592E-F46D-4106-9E72-6AE026FCA010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478E592E-F46D-4106-9E72-6AE026FCA010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -225,6 +269,18 @@ Global
 		{DEF9D48C-85B8-47FB-B122-2DCEC154B584} = {3433EC45-E187-4549-94EA-7E043F585637}
 		{543C4852-4D91-42FE-879E-3C94CAB51E60} = {4DF01758-D0F4-4D08-A407-882EA4346034}
 		{AB334088-68FD-49BA-AEA9-354FA860A01C} = {DEF9D48C-85B8-47FB-B122-2DCEC154B584}
+		{5F56ADD8-D81A-4E87-A62A-565EBE44D162} = {69A448C4-B249-43E5-8F9F-3F02CF41A41C}
+		{EA306133-9973-47DF-B9FA-38F128FD75E9} = {5F56ADD8-D81A-4E87-A62A-565EBE44D162}
+		{72229A4F-F0E8-4F76-AB9F-523CDE6687FE} = {5F56ADD8-D81A-4E87-A62A-565EBE44D162}
+		{CDCFCC1F-54E6-4D72-B518-A9BA7E39306D} = {72229A4F-F0E8-4F76-AB9F-523CDE6687FE}
+		{0A467D45-000F-441F-B61F-047692E0F985} = {EA306133-9973-47DF-B9FA-38F128FD75E9}
+		{C334DD9B-898B-47EC-9E2D-913732B3FA81} = {F9CF5ED4-0292-4C82-A0D8-6A2CFE4A117C}
+		{0054D81C-B158-4277-9017-80287FC1F890} = {C334DD9B-898B-47EC-9E2D-913732B3FA81}
+		{81A3C726-ADB5-4B2A-91C5-48ED818A1C2E} = {69A448C4-B249-43E5-8F9F-3F02CF41A41C}
+		{CF638FC8-5092-426B-900B-32CBBDA67A6D} = {81A3C726-ADB5-4B2A-91C5-48ED818A1C2E}
+		{089CB908-48B5-4DB5-9426-B1880AF2799A} = {81A3C726-ADB5-4B2A-91C5-48ED818A1C2E}
+		{8A2102A2-BD7B-4FFC-9717-3E5680729B63} = {CF638FC8-5092-426B-900B-32CBBDA67A6D}
+		{478E592E-F46D-4106-9E72-6AE026FCA010} = {089CB908-48B5-4DB5-9426-B1880AF2799A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6822753-3BD4-4441-9FDB-8BC00F6ACA92}

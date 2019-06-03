@@ -15,12 +15,13 @@
       "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://localhost:5003"
     },
     "ApiEmailSends": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/SendMails",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

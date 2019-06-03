@@ -16,6 +16,7 @@ namespace SM.Core.CreateCampaign.Implementation
 
         public int Register(Compaign campaign)
         {
+            campaign.DateCreated = DateTime.Now;
             _SMContext.Compaigns.Add(campaign);
             var data = _SMContext.SaveChanges();
             return data;

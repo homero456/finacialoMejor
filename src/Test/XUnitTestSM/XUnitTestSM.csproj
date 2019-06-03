@@ -17,10 +17,14 @@
     <ProjectReference Include="..\..\Core\CreateCampaign\Interfaces\SM.Core.CreateCampaign.Interfaces\SM.Core.CreateCampaign.Interfaces.csproj" />
     <ProjectReference Include="..\..\Core\DeleteCompaign\Implementation\SM.Core.DeleteCompaign.Implementation\SM.Core.DeleteCompaign.Implementation.csproj" />
     <ProjectReference Include="..\..\Core\DeleteCompaign\Interfaces\SM.Core.DeleteCompaign.Interfaces\SM.Core.DeleteCompaign.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Core\EmailSends\Implementation\SM.Core.EmailSends.Implementation\SM.Core.EmailSends.Implementation.csproj" />
+    <ProjectReference Include="..\..\Core\EmailSends\Interfaces\SM.Core.EmailSends.Interfaces\SM.Core.EmailSends.Interfaces.csproj" />
     <ProjectReference Include="..\..\Core\ExportExcel\Implementation\FM.Core.ExportExcel.Implentation\FM.Core.ExportExcel.Implentation.csproj" />
     <ProjectReference Include="..\..\Core\ExportExcel\Interfaces\FM.Core.ExportExcel.Interfaces\FM.Core.ExportExcel.Interfaces.csproj" />
     <ProjectReference Include="..\..\Core\HistoryCompaign\Implementation\SM.Core.HistoryCompaign.Implementation\SM.Core.HistoryCompaign.Implementation.csproj" />
     <ProjectReference Include="..\..\Core\HistoryCompaign\Interfaces\SM.Core.HistoryCompaign.Interfaces\SM.Core.HistoryCompaign.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Core\InitSesion\Implementation\SM.Core.InitSesion.Implementation\SM.Core.InitSesion.Implementation.csproj" />
+    <ProjectReference Include="..\..\Core\InitSesion\Interfaces\SM.Core.InitSesion.Interfaces.IInitSesion\SM.Core.InitSesion.Interfaces.IInitSesion.csproj" />
     <ProjectReference Include="..\..\Core\UserRegister\Implementation\FM.Core.UserRegister.Implementation\FM.Core.UserRegister.Implementation.csproj" />
     <ProjectReference Include="..\..\Crosscutting\Models\SM.CrossCutting.Models.Models\SM.CrossCutting.Models.Models.csproj" />
     <ProjectReference Include="..\..\Data\Providers\Sql\SM.Data.Providers.Sql\SM.Data.Providers.Sql.csproj" />
