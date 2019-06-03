@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Data\Providers\Sql\SM.Data.Providers.Sql\SM.Data.Providers.Sql.csproj" />
+    <ProjectReference Include="..\..\Interfaces\SM.Core.DeleteCompaign.Interfaces\SM.Core.DeleteCompaign.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -10,4 +10,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\ExportExcel\Implementation\FM.Core.ExportExcel.Implentation\FM.Core.ExportExcel.Implentation.csproj" />
+    <ProjectReference Include="..\..\Core\ExportExcel\Interfaces\FM.Core.ExportExcel.Interfaces\FM.Core.ExportExcel.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Core\HistoryCompaign\Implementation\SM.Core.HistoryCompaign.Implementation\SM.Core.HistoryCompaign.Implementation.csproj" />
+    <ProjectReference Include="..\..\Core\HistoryCompaign\Interfaces\SM.Core.HistoryCompaign.Interfaces\SM.Core.HistoryCompaign.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>

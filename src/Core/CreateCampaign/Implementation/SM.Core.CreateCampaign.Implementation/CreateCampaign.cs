@@ -16,7 +16,7 @@ namespace SM.Core.CreateCampaign.Implementation
 
         public int Register(Compaign campaign)
         {
-            _SMContext.Add(campaign);
+            _SMContext.Compaigns.Add(campaign);
             var data = _SMContext.SaveChanges();
             return data;
         }

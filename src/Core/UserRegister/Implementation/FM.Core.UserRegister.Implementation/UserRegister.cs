@@ -16,7 +16,7 @@ namespace FM.Core.UserRegister.Implementation
 
         public int Register(User user)
         {
-            _SMContext.Add(user);
+            _SMContext.Users.Add(user);
             var data = _SMContext.SaveChanges();
             return data;
         }

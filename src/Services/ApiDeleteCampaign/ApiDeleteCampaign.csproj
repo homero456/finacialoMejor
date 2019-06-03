@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\DeleteCompaign\Implementation\SM.Core.DeleteCompaign.Implementation\SM.Core.DeleteCompaign.Implementation.csproj" />
+    <ProjectReference Include="..\..\Data\Providers\Sql\SM.Data.Providers.Sql\SM.Data.Providers.Sql.csproj" />
+  </ItemGroup>
+
 </Project>
