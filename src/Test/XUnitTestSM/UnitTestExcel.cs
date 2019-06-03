@@ -10,7 +10,7 @@ using Xunit;
 
 namespace XUnitTestSM
 {
-    public class UnitTest1
+    public class UnitTestExcel
     {
 
         private IExportExcel CreateService()
@@ -27,5 +27,9 @@ namespace XUnitTestSM
             var bytes = service.ToBytes(input);
             Assert.NotNull(bytes);
         }
+
+
+      
+
     }
 }

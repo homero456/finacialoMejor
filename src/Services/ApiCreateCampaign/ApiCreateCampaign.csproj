@@ -10,4 +10,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\CreateCampaign\Implementation\SM.Core.CreateCampaign.Implementation\SM.Core.CreateCampaign.Implementation.csproj" />
+    <ProjectReference Include="..\..\Core\CreateCampaign\Interfaces\SM.Core.CreateCampaign.Interfaces\SM.Core.CreateCampaign.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Crosscutting\Models\SM.CrossCutting.Models.Models\SM.CrossCutting.Models.Models.csproj" />
+    <ProjectReference Include="..\..\Data\Providers\Sql\SM.Data.Providers.Sql\SM.Data.Providers.Sql.csproj" />
+  </ItemGroup>
+
 </Project>
