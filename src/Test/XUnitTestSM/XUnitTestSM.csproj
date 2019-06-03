@@ -12,4 +12,10 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\ExportExcel\Implementation\FM.Core.ExportExcel.Implentation\FM.Core.ExportExcel.Implentation.csproj" />
+    <ProjectReference Include="..\..\Core\ExportExcel\Interfaces\FM.Core.ExportExcel.Interfaces\FM.Core.ExportExcel.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Crosscutting\Models\SM.CrossCutting.Models.Models\SM.CrossCutting.Models.Models.csproj" />
+  </ItemGroup>
+
 </Project>

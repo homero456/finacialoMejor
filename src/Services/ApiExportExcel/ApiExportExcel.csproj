@@ -6,8 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\ExportExcel\Implementation\FM.Core.ExportExcel.Implentation\FM.Core.ExportExcel.Implentation.csproj" />
+    <ProjectReference Include="..\..\Core\ExportExcel\Interfaces\FM.Core.ExportExcel.Interfaces\FM.Core.ExportExcel.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Crosscutting\Models\SM.CrossCutting.Models.Models\SM.CrossCutting.Models.Models.csproj" />
   </ItemGroup>
 
 </Project>
