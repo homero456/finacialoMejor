@@ -27,11 +27,11 @@ namespace ApiHistoryCampaign.Controllers
         }
 
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public IActionResult Get(string id)
+        // POST api/HistoryCompaign/
+        [HttpPost()]
+        public IActionResult Post([FromBody] User user)
         {
-            var lista = _IHistoryCampaign.GetHistoryCompaigns(id);
+            var lista = _IHistoryCampaign.GetHistoryCompaigns(user.IdUser);
                         
             var json = JsonConvert.SerializeObject(lista);
             //Invocamos la libreria que se encarga de gestionar la data para exportar a excel

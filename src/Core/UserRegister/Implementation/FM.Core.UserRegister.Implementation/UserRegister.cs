@@ -25,6 +25,7 @@ namespace FM.Core.UserRegister.Implementation
             if (userExist == null)
             {
                 user.Password= SecurityMD5.Encrypt(user.Password, keyHash, true);
+                user.DateCreated = DateTime.Now;
                 _SMContext.Users.Add(user);
                 var data = _SMContext.SaveChanges();
                 return data;

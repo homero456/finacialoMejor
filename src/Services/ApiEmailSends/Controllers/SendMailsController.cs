@@ -6,6 +6,7 @@ using FM.Core.ExportExcel.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SM.Core.EmailSends.Interfaces;
+using SM.CrossCutting.Models.Models;
 using SM.Data.Providers.Sql;
 
 namespace ApiEmailSends.Controllers
@@ -25,10 +26,10 @@ namespace ApiEmailSends.Controllers
         }
 
         // GET api/SendMails/5
-        [HttpGet("{id}")]
-        public IActionResult Get(string id)
+        [HttpPost]
+        public IActionResult Post([FromBody] User user)
         {
-            var lista = _ISendMail.GetCompaigns(id);
+            var lista = _ISendMail.GetCompaigns(user.IdUser);
 
             var json = JsonConvert.SerializeObject(lista);
             //Invocamos la libreria que se encarga de gestionar la data para exportar a excel
